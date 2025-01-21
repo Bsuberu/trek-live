@@ -1,0 +1,405 @@
+/* Hide navigation and show toggle on smaller screens(Mobile devices) */
+
+@media (min-width:320px) and (max-width: 500px) {
+    .heading{
+        display:block;
+        
+    }
+    .menu ul {
+        display: none; /* Hide the navigation */
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .menu-toggle {
+        display: flex; /* Show the menu toggle button */
+        color: gold;
+    
+    }
+    
+    nav.menu ul.show {
+        display: flex; /* Show the menu when the toggle is clicked */
+    }
+    
+    header {
+        flex-direction: column; /* Stack logo and menu toggle vertically */
+        height: auto; /* Adjust height to fit content */
+        position: relative;
+    }
+
+    .heading {
+        width: 100%; /* Full width for the logo */
+        text-align: center;
+    }
+
+    nav.menu {
+        width: 100%;
+    }
+    
+    nav ul li {
+        margin-right: 0; /* Remove large gaps between menu items */
+        text-align: center;
+    }
+
+    nav ul li a {
+        font-size: medium; /* Adjust font size for mobile */
+    }
+    .body{
+        padding-left: 0px;
+        font-size: large;
+        height: 700px;
+    }
+    .mid{
+        height: 380px;
+    }
+    .mid-body, .mid-body2, .mid-body3 {
+        padding: 10px; /* Reduce padding for mobile */
+        text-align: center; /* Center-align content for a cleaner look */
+    }
+    .mid-body2 {
+        height: 1300px;
+        padding-bottom: 10px;
+    }
+    
+    .mid-body3 {
+        flex-direction: column; /* Stack content vertically */
+        /* padding-left: 10px; */
+        margin-left: 0;
+    }
+    
+    .mid-body3 img {
+        margin-left: 0;
+        margin-top:4px;
+        width: 100%;
+        height: auto; /* Scale images */
+    }
+
+    
+    .mid-body3 .left-side{
+        text-align: center;
+        padding-left: 10px;
+        
+        p{
+            font-size: medium;
+            margin-left: 5px;
+            text-align: center;
+        }
+    }
+    .mid-body3 button {
+        margin-left: 5px;
+        width: 90%;
+    }
+    
+    .mid-body4{
+    height: 500px;
+    }
+    .mid-body5 {
+        flex-direction: column;
+        padding: 10px;
+        height: 1450px;
+    }
+
+    .mid-body5-1 {
+        margin: 0 auto; /* Center the content */
+        padding: 20px;
+        height: 1350px;
+    }
+    
+    .mid-body5-1 button {
+        margin-left: 0;
+        width: 100%;
+    }
+    .imgs {
+        flex-direction: column; /* Stack images */
+    }
+
+    .img1, .img2 {
+        width: 100%; /* Full width for each image */
+        height: auto; /* Adjust height to maintain aspect ratio */
+    }
+}
+
+
+
+@media (min-width:500px) and (max-width: 650px) {
+    
+    .heading{
+        display:block;
+        
+    }
+    .menu ul {
+        display: none; /* Hide the navigation */
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .menu-toggle {
+        display: flex; /* Show the menu toggle button */
+        color: gold;
+    
+    }
+    
+    nav.menu ul.show {
+        display: flex; /* Show the menu when the toggle is clicked */
+    }
+    
+    header {
+        flex-direction: column; /* Stack logo and menu toggle vertically */
+        height: auto; /* Adjust height to fit content */
+        position: relative;
+    }
+
+    .heading {
+        width: 100%; /* Full width for the logo */
+        text-align: center;
+    }
+
+    nav.menu {
+        width: 100%;
+    }
+    
+    nav ul li {
+        margin-right: 0; /* Remove large gaps between menu items */
+        text-align: center;
+    }
+
+    nav ul li a {
+        font-size: medium; /* Adjust font size for mobile */
+    }
+    .body{
+        padding-left: 0px;
+        font-size: large;
+        height: 700px;
+    }
+    .mid{
+        height: 250px;
+    }
+    .mid-body, .mid-body2, .mid-body3 {
+        padding: 10px; /* Reduce padding for mobile */
+        text-align: center; /* Center-align content for a cleaner look */
+    }
+    .mid-body2 {
+        height: 1200px;
+        padding-bottom: 10px;
+    }
+    
+    .mid-body3 {
+        flex-direction: column; /* Stack content vertically */
+        padding-left: 10px;
+        margin-left: 0;
+    }
+    
+    .mid-body3 img {
+        margin-left: 0;
+        margin-top:4px;
+        width: 100%;
+        height: 400px; /* Scale images */
+    }
+    .mid-body3 .left-side form {
+/*     
+        padding-top: 10px;
+        padding: 20px; */
+        width: auto;
+
+    }
+    
+    .mid-body3 .left-side{
+        margin-left: 0px;
+        text-align: center;
+        margin-right: 30px;
+    }
+    .mid-body3 .left-side button{
+        width: 60%;
+        margin-left: 20px;
+    }
+    
+    .mid-body4{
+    height: 500px;
+    }
+    .mid-body5 {
+        flex-direction: column;
+        padding: 10px;
+        height: 1150px;
+    }
+
+    .mid-body5-1 {
+        margin: 0 auto; /* Center the content */
+        padding: 20px;
+        height: 1100px;
+    }
+    
+    .mid-body5-1 button {
+        width: 50%;
+    }
+    .imgs {
+        flex-direction: column; /* Stack images */
+    }
+
+    .img1, .img2 {
+        width: 100%; /* Full width for each image */
+        height: auto; /* Adjust height to maintain aspect ratio */
+    }
+}
+@media (min-width:650px) and (max-width: 768px){
+    .mid-body2 {
+            height: 1200px;
+            padding-bottom: 10px;
+            width: 100%;
+    }
+    .mid-body2 .imgs {
+        flex-direction: column; /* Stack images */
+        width: 100%;
+        align-items: center;
+    }
+
+    .img1, .img2 {
+        width: 100%; /* Full width for each image */
+        height: auto; /* Adjust height to maintain aspect ratio */
+    }
+        
+    .mid-body3 {
+        flex-direction: column; /* Stack content vertically */
+        padding-left: 10px;
+        margin-left: 0;
+    }
+    
+    .mid-body3 img {
+        margin-left: 0;
+        margin-top:4px;
+        width: 100%;
+        height: 400px; /* Scale images */
+    }
+    .mid-body3 .left-side form {
+/*     
+        padding-top: 10px;
+        padding: 20px; */
+        width: auto;
+
+    }
+    
+    .mid-body3 .left-side{
+        margin-left: 0px;
+        text-align: center;
+        margin-right: 30px;
+    }
+    .mid-body3 .left-side button{
+        width: 60%;
+        margin-left: 20px;
+    }
+    .mid-body5 {
+        flex-direction: column;
+        padding: 10px;
+        height: 950px;
+    }
+
+    .mid-body5-1 {
+        margin: 0 auto; /* Center the content */
+        padding: 20px;
+        height: 900px;
+    }
+    
+    .mid-body5-1 button {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .menubutton button, .mid-body button, .img1 button, .img2 button {
+        font-size: small; /* Adjust button size for mobile */
+        padding: 8px 16px;
+        width: 100%; /* Full-width buttons for mobile */
+    /* }
+
+    .mid-body h3, .mid-body2 h3, .mid-body5-1 h3 {
+        font-size: 1.5rem; /* Reduce heading size */
+    }
+} 
+
+@media (min-width:769px) and (max-width: 1200px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .heading {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    nav.menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+    nav a {
+        font-size: medium;
+    }
+
+    .body {
+        padding-top: 300px; /* Adjust padding to accommodate smaller header */
+        height: 800px;
+    }
+    .mid-body2 {
+        height: 1200px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .mid-body2 .imgs {
+        display: flex; 
+        width: auto;
+        align-items: center;
+    }
+
+    .img1, .img2 {
+        width: auto; 
+        height: auto;
+    }
+        
+    .mid-body3 {
+        flex-direction:row; /* Stack content vertically */
+        padding-left: 10px;
+        margin-left: 0;
+        width: auto;
+    }
+    
+    .mid-body3 img {
+        margin-left: 0;
+        margin-top:4px;
+        width: 400px;
+        height: 400px; /* Scale images */
+    }
+    
+    
+    .mid-body3 .left-side{
+        padding-left: 10px;
+        text-align: center;
+        margin-right: 30px;
+        width: 80%;
+    }
+    .mid-body3 .left-side button{
+        width: 60%;
+        margin-left: 20px;
+    }
+    .mid-body5 {
+        flex-direction: column;
+        padding: 10px;
+        height: 850px;
+    }
+
+    .mid-body5-1 {
+        margin: 0 auto; /* Center the content */
+        padding: 20px;
+        height: 800px;
+    }
+    
+    .mid-body5-1 button {
+        width: 50%;
+    }
+}
+
